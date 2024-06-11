@@ -1,2 +1,2 @@
 #!/bin/bash
-if id "guillaume" >/dev/null 2>&1 then chown vincent:hello hello fi
+if [ "$(stat -c '%U' hello)" = "guillaume" ] \ then chown vincent hello \ fi
