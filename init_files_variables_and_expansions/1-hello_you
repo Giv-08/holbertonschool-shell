@@ -1,2 +1,2 @@
 #!/bin/bash
-alias user='echo hello $(whoami)'
+echo hello $(whoami)
