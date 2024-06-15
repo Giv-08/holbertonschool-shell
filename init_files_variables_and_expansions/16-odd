@@ -1,2 +1,2 @@
 #!/bin/bash
-tail -n +1 | head -n 1; tail -n +3 | head -n 1; tail -n +5 | head -n 1
+tail -n +1 | head -n 1
