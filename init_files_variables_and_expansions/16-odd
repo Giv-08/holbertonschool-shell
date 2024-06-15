@@ -1,2 +1,2 @@
 #!/bin/bash
-tail -n +1 | head -n 1 ...
+grep -n "" | grep -E '^[0-9]*[24680]:'.
